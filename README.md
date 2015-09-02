@@ -12,7 +12,22 @@ Here is the mistake, I think, you are talking about UI Display format for date. 
 
 # API
 
+## DateString.getSystemTimeZone()
 
+```js
+var p  = DateString.getSystemTimeZone();
+console.log(p);
+//This will return +0530 if you are on India.
+```
+# DateString.today()
+
+```js
+//Today in timezone -1000
+console.log(DateString.today("-1000"));    //2015-09-01
+//
+//Today in timezone +0530
+console.log(DateString.today("+0530"));    //2015-09-02
+```
 
 # Author
 (C) 2015 Narendra Sisodiya, MIT License
