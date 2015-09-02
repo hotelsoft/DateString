@@ -1,0 +1,25 @@
+{
+  "name": "datestring",
+  "version": "1.0.0",
+  "description": "YYYY-MM-DD date library",
+  "main": "src/DateString.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hotelsoft/DateString.git"
+  },
+  "keywords": [
+    "date"
+  ],
+  "author": "Narendra Sisodiya <narendra@narendrasisodiya.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hotelsoft/DateString/issues"
+  },
+  "homepage": "https://github.com/hotelsoft/DateString#readme"
+}
