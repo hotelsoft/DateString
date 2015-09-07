@@ -16,7 +16,8 @@ var x = new DateString("2014-04-01");
 console.log("Year " + x.getYear());//
 console.log("Month " + x.getMonth());//
 console.log("Date " + x.getDate());//
-console.log(Object.prototype.toString.call(x));
+console.log(x.constructor.name);
+console.log((new Date()).constructor.name);
 console.log(x.val());
 console.log(JSON.stringify(x));
 console.log({date: x});
